@@ -1,20 +1,29 @@
 version: '3.8'
+
 services:
+  # --- BACKEND ---
   backend:
     build: ./backend
-    ports:
-      - "3000:3000"
+    container_name: todo-backend
     depends_on:
       - mongo-db
     environment:
       - MONGO_URI=mongodb://mongo-db:27017/todo-db
+    # No need to expose port 3000 outside the machine if using Nginx later
 
+  # --- MONGODB ---
   mongo-db:
     image: mongo:latest
-    ports:
-      - "27017:27017"
+    container_name: todo-db
     volumes:
       - mongo-data:/data/db
+
+  # --- FRONTEND ---
+  frontend:
+    build: ./frontend
+    container_name: todo-frontend
+    ports:
+      - "80:80"  # Access app via http://localhost (port 80)
 
 volumes:
   mongo-data:
