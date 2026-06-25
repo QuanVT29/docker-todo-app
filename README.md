@@ -57,7 +57,6 @@ cd your-repo-name
 
 - Frontend: https://studious-broccoli-q7459wjr5rr9h45jv-80.app.github.dev/
 
-- API: http://localhost:3000
 
 <br>
 
