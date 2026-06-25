@@ -2,12 +2,16 @@
 
 A robust, containerized Full-Stack Todo application built to demonstrate best practices in **Docker** orchestration, multi-stage builds, and microservice communication.
 
+<br>
+
 ## 🚀 Architecture
 The application consists of four main services orchestrated by `docker-compose`:
 * **Frontend:** React.js (Served by Nginx)
 * **Backend:** Node.js & Express API
 * **Database:** MongoDB
 * **Reverse Proxy:** Nginx
+
+<br>
 
 ## 🛠 Tech Stack
 - **Frontend:** React, Vite
@@ -16,6 +20,8 @@ The application consists of four main services orchestrated by `docker-compose`:
 - **Containerization:** Docker, Docker Compose
 - **Web Server:** Nginx
 
+<br>
+
 ## 📋 Features
 - Full CRUD operations for tasks.
 - Containerized development and production environments.
@@ -23,9 +29,13 @@ The application consists of four main services orchestrated by `docker-compose`:
 - Environment variable management for security.
 - Seamless inter-container networking.
 
+<br>
+
 ## 📦 Prerequisites
 - [Docker](https://www.docker.com/products/docker-desktop/) installed
 - [Docker Compose](https://docs.docker.com/compose/install/) installed
+
+<br>
 
 ## ⚙️ Getting Started
 
@@ -35,14 +45,13 @@ git clone [https://github.com/your-username/your-repo-name.git](https://github.c
    
 cd your-repo-name
 
-
 1. Configure environment variables:
    
-Copy the example environment file and update it if necessary: cp .env.example .env
+- Copy the example environment file and update it if necessary: 'cp .env.example .env'
 
 2. Launch the application:
    
-Build and start all services in detached mode: docker-compose up --build -d
+- Build and start all services in detached mode: 'docker-compose up --build -d'
 
 3. Access the application:
 
@@ -50,7 +59,8 @@ Build and start all services in detached mode: docker-compose up --build -d
 
 - API: http://localhost:3000
 
-  
+<br>
+
 
 ## 🐳 Docker Highlights
 
@@ -60,6 +70,8 @@ Networking: All services communicate via a dedicated bridge network defined in d
 
 Volume Mounting: Source code is mounted to containers for hot-reloading during development.
 
+
+<br>
 
 ## 📂 Project Structure
 
@@ -71,6 +83,7 @@ Volume Mounting: Source code is mounted to containers for hot-reloading during d
 ├── .dockerignore       # Excluding node_modules and .git
 └── .env.example        # Environment variables template
 
+<br>
 
 ## 📄 License
 This project is licensed under the MIT License.
