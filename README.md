@@ -75,18 +75,18 @@ Volume Mounting: Source code is mounted to containers for hot-reloading during d
 
 ## 📂 Project Structure
 
-.
-├── backend/            # Express.js API
 
-├── frontend/           # React Client
+├── backend /                           # Express.js API
 
-├── nginx/              # Nginx configuration
+├── frontend /                          # React Client
 
-├── docker-compose.yml  # Services orchestration
+├── nginx /                             # Nginx configuration
 
-├── .dockerignore       # Excluding node_modules and .git
+├── docker-compose.yml /                # Services orchestration
 
-└── .env.example        # Environment variables template
+├── .dockerignore  /                    # Excluding node_modules and .git
+
+└── .env.example  /                     # Environment variables template
 
 <br>
 
