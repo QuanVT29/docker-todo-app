@@ -77,10 +77,15 @@ Volume Mounting: Source code is mounted to containers for hot-reloading during d
 
 .
 ├── backend/            # Express.js API
+
 ├── frontend/           # React Client
+
 ├── nginx/              # Nginx configuration
+
 ├── docker-compose.yml  # Services orchestration
+
 ├── .dockerignore       # Excluding node_modules and .git
+
 └── .env.example        # Environment variables template
 
 <br>
