@@ -31,7 +31,7 @@ The application consists of four main services orchestrated by `docker-compose`:
 
 ### **Clone the repository:**
 
-git clone [[https://github.com/your-username/your-repo-name.git](https://github.com/QuanVT29/docker-todo-app.git)](https://github.com/QuanVT29/docker-todo-app.git)
+git clone [https://github.com/your-username/your-repo-name.git](https://github.com/QuanVT29/docker-todo-app.git)
    
 cd your-repo-name
 
