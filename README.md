@@ -55,7 +55,7 @@ cd your-repo-name
 
 3. Access the application:
 
-- Frontend: https://studious-broccoli-q7459wjr5rr9h45jv-80.app.github.dev/
+- Frontend: [https://studious-broccoli-q7459wjr5rr9h45jv-80.app.github.dev/](http://localhost/)
 
 
 <br>
