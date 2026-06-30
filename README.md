@@ -86,7 +86,6 @@ Volume Mounting: Source code is mounted to containers for hot-reloading during d
 
 ├── .dockerignore  /                    # Excluding node_modules and .git
 
-└── .env.example  /                     # Environment variables template
 
 <br>
 
